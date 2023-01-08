@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Mahajan-Number-Conveter/static/css/main.073c9b0a.css",
-    "main.js": "/Mahajan-Number-Conveter/static/js/main.90982afd.js",
+    "main.js": "/Mahajan-Number-Conveter/static/js/main.c3086e59.js",
     "static/js/787.041acc40.chunk.js": "/Mahajan-Number-Conveter/static/js/787.041acc40.chunk.js",
     "index.html": "/Mahajan-Number-Conveter/index.html",
     "main.073c9b0a.css.map": "/Mahajan-Number-Conveter/static/css/main.073c9b0a.css.map",
-    "main.90982afd.js.map": "/Mahajan-Number-Conveter/static/js/main.90982afd.js.map",
+    "main.c3086e59.js.map": "/Mahajan-Number-Conveter/static/js/main.c3086e59.js.map",
     "787.041acc40.chunk.js.map": "/Mahajan-Number-Conveter/static/js/787.041acc40.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.90982afd.js"
+    "static/js/main.c3086e59.js"
   ]
 }
