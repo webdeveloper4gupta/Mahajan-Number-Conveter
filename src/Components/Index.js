@@ -83,7 +83,7 @@ const Index = () => {
           }
           return (
                     <>
-                                        <h1>welcome to code world</h1>
+                                        <h1>welcome to code world of sukritan gupta</h1>
                               <div>
                               <h3>Decimal to binary converter</h3>
                               <small>please enter the number in the decimal else you get erroronous value</small>
