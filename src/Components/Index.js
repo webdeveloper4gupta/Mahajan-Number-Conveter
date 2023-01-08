@@ -11,6 +11,10 @@ const Index = () => {
           let[f,setf]=useState({
                     n:'',
                     v:''
+          });
+          let[v,setv]=useState({
+               n:'',
+               ans:''
           })
                const mahajan1=(e)=>{
                     setc(e.target.value)
@@ -21,6 +25,9 @@ const Index = () => {
           }
           const mahajan3=(e)=>{
                     setf({n:e.target.value})
+          }
+          const mahajan4=(e)=>{
+               setv({n:e.target.value})
           }
           const aman1=()=>{
                               var a=[];
@@ -71,6 +78,11 @@ const Index = () => {
                     setf({v:a})
                  
           }
+          const aman4=()=>{
+               let number =Number(v.n);
+               let hexStr = number.toString(16);
+               setv({ans:hexStr})
+          }
           const clear1=()=>{
                     setc('');
                     setd('')
@@ -80,6 +92,9 @@ const Index = () => {
           }
           const clear3=()=>{
                     setf({n:''})
+          }
+          const clear4=()=>{
+               setv({n:''})
           }
           return (
                     <>
@@ -117,7 +132,17 @@ const Index = () => {
                                         <span>Octal:{f.v}</span>
                                         <hr/>
                               </div>              
-                    
+                            <div>
+                              <h3>Decimal to Hexadecimal</h3>
+                              <small>please enter the value in the decimal else may be you get an erronous value</small>
+                              <input type="text"  value={v.n} onChange={mahajan4}/>
+                              <input type="button"  value="calculate heaxdecimal" onClick={aman4}/>
+                              <button type="button" onClick={clear4}>clear</button>
+                              <br/>
+                              <hr/>
+                              <span>Hexal:{v.ans}</span>
+                              <hr/>
+                            </div>
                     </>
                     
           
